@@ -1,0 +1,2 @@
+/**@interface */
+export class ILivvieEventResponse { }

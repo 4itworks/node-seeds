@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // Enables type checking of JavaScript files
+    "checkJs": true,
+    // Prevents outputting compiled files since we're only using this for type checking
+    "noEmit": true,
+    // Base directory for resolving non-absolute module names
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    // Type declaration files to be included in the project
+    // Paths are used to, optionally, set up a series of entries that re-map imports to lookup locations relative to the 'baseUrl'
+  },
+  // JavaScript files to be included for type checking
+  "include": ["**/*.js", "**/*.mjs", "**/*.jsx", "**/*.ts", "**/*.tsx"]
+}
